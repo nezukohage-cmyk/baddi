@@ -16,7 +16,7 @@ import Razorpay from "razorpay";
 /* =====================================================
    CONFIG
 ===================================================== */
-dotenv.config({ path: "./backend/config/config.env" });
+dotenv.config({ path: "./config/config.env" });
 console.log("ENV FILE PATH CHECK");
 console.log("MONGO_URI =", process.env.MONGO_URI);
 

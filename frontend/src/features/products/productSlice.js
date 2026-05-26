@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "../../config/axiosConfig";
+import axios from "../../config/axiosConfig.js";
 
 /* =====================================================
    GET ALL PROPERTIES

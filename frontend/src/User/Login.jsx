@@ -59,10 +59,10 @@ function Login() {
             />
           </div>
           <button className="authBtn">Sign In</button>
-          <p className="form-links">
+          {/* <p className="form-links">
             Forgot your password?
             <Link to="/password/forgot">Reset Here</Link>
-          </p>
+          </p> */}
           <p className="form-links">
             Don't have an account?
             <Link to="/register">Sign up Here</Link>

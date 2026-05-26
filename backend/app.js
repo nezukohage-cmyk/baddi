@@ -9,10 +9,7 @@ import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import paymentRoutes from "./routes/paymentRoutes.js";
 
-/* =====================================================
-   CONFIG (MUST BE FIRST)
-===================================================== */
-dotenv.config({ path: "backend/config/config.env" });
+
 
 const app = express();
 

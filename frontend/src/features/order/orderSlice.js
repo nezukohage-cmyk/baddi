@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "../../config/axiosConfig";
+import axios from "../../config/axiosConfig.js";
 
 /* =====================================================
    CREATE BOOKING

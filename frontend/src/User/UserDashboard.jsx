@@ -75,7 +75,7 @@ function UserDashboard({ user }) {
       <div className="dashboard-container">
         <div className="profile-header" onClick={toggleMenu}>
           <img
-            src={user.avatar.url ? user.avatar.url : "./images/profile.png"}
+            src={user?.avatar?.url ? user.avatar.url : "./images/profile.png"}
             alt="Profile Picture"
             className="profile-avatar"
           />

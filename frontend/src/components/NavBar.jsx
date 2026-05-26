@@ -40,7 +40,7 @@ function NavBar() {
         {/* LOGO */}
         <div className="navbar-logo">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>
-            StayEasy
+            PG Finder
           </Link>
         </div>
 
